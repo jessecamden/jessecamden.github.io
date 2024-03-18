@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Text with Cool Font</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap">
+    <style>
+        body {
+            background-color: white;
+            color: #1100ff; /* deep blue */
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes fall1 {
+            0% { transform: translateY(-100vh) rotate(0deg); }
+            100% { transform: translateY(50vh) rotate(360deg); }
+        }
+
+        @keyframes fall2 {
+            0% { transform: translateY(-120vh) rotate(30deg); }
+            100% { transform: translateY(40vh) rotate(390deg); }
+        }
+
+        @keyframes fall3 {
+            0% { transform: translateY(-140vh) rotate(-20deg); }
+            100% { transform: translateY(30vh) rotate(340deg); }
+        }
+
+        @keyframes fall4 {
+            0% { transform: translateY(-160vh) rotate(10deg); }
+            100% { transform: translateY(60vh) rotate(370deg); }
+        }
+
+        @keyframes fall5 {
+            0% { transform: translateY(-180vh) rotate(-15deg); }
+            100% { transform: translateY(20vh) rotate(345deg); }
+        }
+
+        @keyframes fall6 {
+            0% { transform: translateY(-200vh) rotate(25deg); }
+            100% { transform: translateY(70vh) rotate(385deg); }
+        }
+
+        @keyframes fall7 {
+            0% { transform: translateY(-220vh) rotate(-10deg); }
+            100% { transform: translateY(25vh) rotate(370deg); }
+        }
+
+        @keyframes fall8 {
+            0% { transform: translateY(-240vh) rotate(20deg); }
+            100% { transform: translateY(45vh) rotate(380deg); }
+        }
+
+        @keyframes fall9 {
+            0% { transform: translateY(-260vh) rotate(-5deg); }
+            100% { transform: translateY(55vh) rotate(365deg); }
+        }
+
+        @keyframes fall10 {
+            0% { transform: translateY(-280vh) rotate(15deg); }
+            100% { transform: translateY(80vh) rotate(375deg); }
+        }
+
+        .container {
+            position: relative;
+            height: 100vh;
+        }
+
+        .spinning-text {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 700;
+            margin: 15px 0;
+            position: absolute;
+            color: #1100ff; /* deep blue */
+        }
+
+        .spinning-text:nth-child(1) {
+            animation: fall1 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 10%;
+            top: 10%;
+        }
+
+        .spinning-text:nth-child(2) {
+            animation: fall2 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 30%;
+            top: 20%;
+        }
+
+        .spinning-text:nth-child(3) {
+            animation: fall3 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 50%;
+            top: 30%;
+        }
+
+        .spinning-text:nth-child(4) {
+            animation: fall4 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 70%;
+            top: 40%;
+        }
+
+        .spinning-text:nth-child(5) {
+            animation: fall5 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 90%;
+            top: 50%;
+        }
+
+        .spinning-text:nth-child(6) {
+            animation: fall6 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 10%;
+            top: 60%;
+        }
+
+        .spinning-text:nth-child(7) {
+            animation: fall7 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 30%;
+            top: 70%;
+        }
+
+        .spinning-text:nth-child(8) {
+            animation: fall8 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 50%;
+            top: 80%;
+        }
+
+        .spinning-text:nth-child(9) {
+            animation: fall9 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 70%;
+            top: 90%;
+        }
+
+        .spinning-text:nth-child(10) {
+            animation: fall10 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            left: 90%;
+            top: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="spinning-text">What was the first thing you paid attention to when interacting with the experience?</h1>
+        <h1 class="spinning-text">Spend two minutes with the experience and create a list of each of your discrete actions.</h1>
+        <h1 class="spinning-text">What part of the experience did you spend the most time engaging with?</h1>
+        <h1 class="spinning-text">What was the most common action in your two-minute interaction with the experience?</h1>
+        <h1 class="spinning-text">What is your impression of the intended primary goal of the interactive experience?</h1>
+        <h1 class="spinning-text">How does the interactive experience communicate this primary goal?</h1>
+        <h1 class="spinning-text">What is your impression of how the experience should be interacted with over time? (For how long and how many different times)</h1>
+        <h1 class="spinning-text">How does the interactive experience communicate how it should be interacted with over time?</h1>
+    </div>
+</body>
+</html>

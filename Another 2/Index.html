@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realistic Chair</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .chair-container {
+      position: relative;
+    }
+
+    .chair {
+      width: 300px;
+      height: 300px;
+      position: relative;
+    }
+
+    /* Adjust the positions of characters to form the shape of the chair */
+    .chair-symbol {
+      position: absolute;
+    }
+
+    .backrest {
+      top: 20px;
+      left: 100px;
+      width: 100px;
+      height: 150px;
+      background-color: #333;
+      transform: skewX(-20deg);
+      z-index: 1;
+    }
+
+    .seat {
+      top: 150px;
+      left: 20px;
+      width: 260px;
+      height: 60px;
+      background-color: #333;
+      border-radius: 10px;
+      z-index: 2;
+    }
+
+    .front-legs {
+      top: 200px;
+      left: 20px;
+      width: 20px;
+      height: 100px;
+      background-color: #333;
+      z-index: 3;
+    }
+
+    .back-legs {
+      top: 200px;
+      left: 260px;
+      width: 20px;
+      height: 100px;
+      background-color: #333;
+      z-index: 3;
+    }
+
+    .armrest-left {
+      top: 50px;
+      left: 20px;
+      width: 20px;
+      height: 100px;
+      background-color: #333;
+      transform: skewY(-20deg);
+      z-index: 1;
+    }
+
+    .armrest-right {
+      top: 50px;
+      left: 260px;
+      width: 20px;
+      height: 100px;
+      background-color: #333;
+      transform: skewY(20deg);
+      z-index: 1;
+    }
+
+    /* Text above the chair */
+    .chair-text {
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: #333;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: 'Arial Black', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="chair-container">
+    <div class="chair">
+      <div class="backrest chair-symbol"></div>
+      <div class="seat chair-symbol"></div>
+      <div class="front-legs chair-symbol"></div>
+      <div class="back-legs chair-symbol"></div>
+      <div class="armrest-left chair-symbol"></div>
+      <div class="armrest-right chair-symbol"></div>
+    </div>
+    <div class="chair-text">I TAKE YOU WITH ME</div>
+  </div>
+</body>
+</html>
+
