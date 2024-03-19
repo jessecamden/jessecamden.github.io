@@ -1,0 +1,28 @@
+* {
+    color: hotpink;
+}
+
+h1 {
+    color: limegreen;
+}
+
+
+p {
+    color: yellow;
+}
+
+li {
+    color: peru;
+}
+
+.my-colors {
+    color:aquamarine
+}
+
+#outcomes {
+    color: green
+}
+
+[data-heading="learning"]{
+    color: black
+}
