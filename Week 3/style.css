@@ -2,6 +2,12 @@
     color: hotpink;
 }
 
+/* lime green is my fav color 
+--------------
+For this assignment, I went with the color pallette exy because...
+--------------
+*/
+
 h1 {
     color: limegreen;
 }
@@ -25,4 +31,16 @@ li {
 
 [data-heading="learning"]{
     color: black
+}
+
+ul li {
+    color: yellow
+}
+
+li > strong {
+    color: purple
+}
+
+h3 > strong {
+    color: gray
 }
