@@ -25,6 +25,18 @@ h1 {
     boarder: 2px dashed rgb(60, 42, 33);
     width: 400px;
     min-height: 200px;
+    display: flex;
+    gap: 1rem;  
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner {
+    background-color: lightsalmon  
+    width: 100px
+    height: 100px
+    flex-shrink: 0;
 }
 
 p {
