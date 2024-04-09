@@ -15,12 +15,12 @@
 
         @keyframes fall1 {
             0% { transform: translateY(-100vh) rotate(0deg); }
-            100% { transform: translateY(50vh) rotate(360deg); }
+            100% { transform: translateY(10vh) rotate(360deg); }
         }
 
         @keyframes fall2 {
             0% { transform: translateY(-120vh) rotate(30deg); }
-            100% { transform: translateY(40vh) rotate(390deg); }
+            100% { transform: translateY(20vh) rotate(390deg); }
         }
 
         @keyframes fall3 {
@@ -30,37 +30,37 @@
 
         @keyframes fall4 {
             0% { transform: translateY(-160vh) rotate(10deg); }
-            100% { transform: translateY(60vh) rotate(370deg); }
+            100% { transform: translateY(40vh) rotate(370deg); }
         }
 
         @keyframes fall5 {
             0% { transform: translateY(-180vh) rotate(-15deg); }
-            100% { transform: translateY(20vh) rotate(345deg); }
+            100% { transform: translateY(50vh) rotate(345deg); }
         }
 
         @keyframes fall6 {
             0% { transform: translateY(-200vh) rotate(25deg); }
-            100% { transform: translateY(70vh) rotate(385deg); }
+            100% { transform: translateY(60vh) rotate(385deg); }
         }
 
         @keyframes fall7 {
             0% { transform: translateY(-220vh) rotate(-10deg); }
-            100% { transform: translateY(25vh) rotate(370deg); }
+            100% { transform: translateY(70vh) rotate(370deg); }
         }
 
         @keyframes fall8 {
             0% { transform: translateY(-240vh) rotate(20deg); }
-            100% { transform: translateY(45vh) rotate(380deg); }
+            100% { transform: translateY(80vh) rotate(380deg); }
         }
 
         @keyframes fall9 {
             0% { transform: translateY(-260vh) rotate(-5deg); }
-            100% { transform: translateY(55vh) rotate(365deg); }
+            100% { transform: translateY(90vh) rotate(365deg); }
         }
 
         @keyframes fall10 {
             0% { transform: translateY(-280vh) rotate(15deg); }
-            100% { transform: translateY(80vh) rotate(375deg); }
+            100% { transform: translateY(100vh) rotate(375deg); }
         }
 
         .container {
@@ -74,66 +74,57 @@
             margin: 15px 0;
             position: absolute;
             color: #1100ff; /* deep blue */
+            white-space: nowrap;
         }
 
         .spinning-text:nth-child(1) {
             animation: fall1 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 10%;
-            top: 10%;
         }
 
         .spinning-text:nth-child(2) {
             animation: fall2 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 30%;
-            top: 20%;
         }
 
         .spinning-text:nth-child(3) {
             animation: fall3 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 50%;
-            top: 30%;
         }
 
         .spinning-text:nth-child(4) {
             animation: fall4 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 70%;
-            top: 40%;
         }
 
         .spinning-text:nth-child(5) {
             animation: fall5 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 90%;
-            top: 50%;
         }
 
         .spinning-text:nth-child(6) {
             animation: fall6 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 10%;
-            top: 60%;
         }
 
         .spinning-text:nth-child(7) {
             animation: fall7 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 30%;
-            top: 70%;
         }
 
         .spinning-text:nth-child(8) {
             animation: fall8 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 50%;
-            top: 80%;
         }
 
         .spinning-text:nth-child(9) {
             animation: fall9 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 70%;
-            top: 90%;
         }
 
         .spinning-text:nth-child(10) {
             animation: fall10 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
             left: 90%;
-            top: 100%;
         }
     </style>
 </head>

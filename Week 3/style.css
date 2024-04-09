@@ -10,11 +10,19 @@ For this assignment, I went with the color pallette exy because...
 
 h1 {
     color: limegreen;
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-family: "Geostar Fill", serif;
+    font-weight: 400;
+     font-style: normal;
 }
 
 
 p {
     color: yellow;
+    line-height: 2;
 }
 
 li {
