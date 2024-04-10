@@ -1,0 +1,82 @@
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color:#000000;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.inner {
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid #000000;
+    border-radius: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.gradient-background {
+    /* background: radial-gradient(ellipse at top left, #ffffff 0%, #a5a5a5 50%, #4d525c 100%); */
+}
+
+@media (max-width: 768px) {
+    .outer {
+        grid-template-columns: 1fr;
+    }
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: green; }
+}
+
+.p-inspired {
+    animation: colorChange 3s infinite alternate;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
